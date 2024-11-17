@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Proyecto Modal image gallery (Lightbox)</title>
+    <!-- Normalizar estilos -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Fuentes -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato|Open+Sans"
+      rel="stylesheet"
+    />
+    <!-- Icon fonts -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="gallery">
+          <div class="gallery-item">
+            <img
+              src="images/1.jpg"
+              data-description="Lush Grass Growing on a Lake
+          Shore in Fall"
+              alt="Lorem ipsum sit amet consectetur adipisicing elit.
+          Molestiae beatae repellendus cum rem molestias."
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="images/2.jpg"
+              data-description="Aerial View o a Highway
+          Curve among Hills and Forest"
+              alt="Lorem ipsum sit amet consectetur
+          adipisicing elit. Molestiae beatae repellendus cum rem
+          molestias."
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="images/3.jpg"
+              data-description="Road in Mountain Landscape,
+          Veneto, Italy"
+              alt="Lorem ipsum sit amet consectetur adipisicing elit.
+          Molestiae beatae repellendus cum rem molestias."
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="images/4.jpg"
+              data-description="A View of a Beautiful Farm
+          Field During Sunset, KS, United States"
+              alt="Lorem ipsum sit amet
+          consectetur adipisicing elit. Molestiae beatae repellendus cum rem
+          molestias."
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="images/5.jpg"
+              data-description="Trees on the Grass Field"
+              alt="Lorem ipsum sit amet consectetur adipisicing elit. Molestiae
+          beatae repellendus cum rem molestias."
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="images/6.jpg"
+              data-description="Green Grass Field Under
+          White Clouds"
+              alt="Lorem ipsum sit amet consectetur adipisicing elit.
+          Molestiae beatae repellendus cum rem molestias."
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="images/7.jpg"
+              data-description="River Water Long Exposure,
+          Vipiteno, Trentino-South Tyrol, Italy"
+              alt="Lorem ipsum sit amet
+          consectetur adipisicing elit. Molestiae beatae repellendus cum rem
+          molestias."
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="images/8.jpg"
+              data-description="Wisła River Meandering
+          Through the Hills of Plock City, Płock, Masovian Voivodeship, Poland"
+              alt="Lorem ipsum sit amet consectetur adipisicing elit. Molestiae
+          beatae repellendus cum rem molestias."
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="images/9.jpg"
+              data-description="Aerial Photography of Water
+          Beside Forest during Golden Hour"
+              alt="Lorem ipsum sit amet
+          consectetur adipisicing elit. Molestiae beatae repellendus cum rem
+          molestias."
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="images/10.jpg"
+              data-description="Empire State Building, New
+          York, NY, United States"
+              alt="Lorem ipsum sit amet consectetur
+          adipisicing elit. Molestiae beatae repellendus cum rem
+          molestias."
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="images/11.jpg"
+              data-description="Raised Building Frame,
+          Huangpu Qu, Shanghai Shi, China"
+              alt="Lorem ipsum sit amet consectetur
+          adipisicing elit. Molestiae beatae repellendus cum rem
+          molestias."
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="images/12.jpg"
+              data-description="Train passing, Zürich, ZH,
+          Switzerland"
+              alt="Lorem ipsum sit amet consectetur adipisicing elit.
+          Molestiae beatae repellendus cum rem molestias."
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="images/13.jpg"
+              data-description="Green Leafed Trees Near
+          Concrete Buildings, Milano, Lombardia, Italy"
+              alt="Lorem ipsum sit
+          amet consectetur adipisicing elit. Molestiae beatae repellendus cum
+          rem molestias."
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="images/14.jpg"
+              data-description="River Near City Buildings
+          Under Cloudy Sky, Chicago, IL, United States"
+              alt="Lorem ipsum sit
+          amet consectetur adipisicing elit. Molestiae beatae repellendus cum
+          rem molestias."
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="images/15.jpg"
+              data-description="Khwaeng Khlong Toei Nuea,
+          Krung Thep Maha Nakhon, Thailand"
+              alt="Lorem ipsum sit amet
+          consectetur adipisicing elit. Molestiae beatae repellendus cum rem
+          molestias."
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="images/16.jpg"
+              data-description="Photo of Sea Turtle, HI,
+          United States"
+              alt="Lorem ipsum sit amet consectetur adipisicing elit.
+          Molestiae beatae repellendus cum rem molestias."
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="images/17.jpg"
+              data-description="Yellow and Blue Fish in
+          Water"
+              alt="Lorem ipsum sit amet consectetur adipisicing elit.
+          Molestiae beatae repellendus cum rem molestias."
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="images/18.jpg"
+              data-description="Fishes near Coral Reefs"
+              alt="Lorem ipsum sit amet consectetur adipisicing elit. Molestiae
+          beatae repellendus cum rem molestias."
+            />
+          </div>
+        </div>
+        <button id="loadMoreBtn">
+          <i class="fa-solid fa-eye"></i> Ver más imágenes
+        </button>
+
+        <!-- Ventana modal -->
+        <div id="modal" class="modal">
+          <div class="modal-content">
+            <span class="modal-close" id="closeModalBtn"
+              ><i class="fa-solid fa-xmark"></i
+            ></span>
+            <span class="modal-prev" id="prevImageBtn"
+              ><i class="fa-solid fa-caret-left"></i
+            ></span>
+            <img id="modal-image" class="modal-image" />
+            <p id="modal-description" class="modal-description"></p>
+            <div class="downloadShareButtons">
+              <button id="downloadImageBtn">Descargar</button>
+              <div class="social-buttons">
+                <span>Compartir en:</span>
+                <a href="#" class="social-button" id="facebookShareBtn"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+                <a href="#" class="social-button" id="twitterShareBtn"
+                  ><i class="fa-brands fa-x-twitter"></i
+                ></a>
+              </div>
+            </div>
+            <span class="modal-next" id="nextImageBtn"
+              ><i class="fa-solid fa-caret-right"></i
+            ></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/app.js"></script>
+  </body>
+</html>
